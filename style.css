@@ -87,3 +87,127 @@ header {
   color: #597193;
   cursor: pointer;
 }
+/* Hero Styles */
+.hero {
+  width: 100%;
+  background: #eaeff6;
+  padding-top: 135px;
+}
+.hero-container {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-text {
+  margin-bottom: 85px;
+}
+.hero-text h1 {
+  font-size: 2.183rem;
+  font-weight: 600;
+  text-align: left;
+  color: #3d4550;
+  width: 347px;
+  margin-bottom: 2rem;
+}
+.hero-text h4 {
+  font-family: "Average Sans", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #939393;
+  width: 452px;
+  margin-bottom: 36px;
+}
+.hero-buttons {
+  display: inline-flex;
+  align-items: center;
+  gap: 54px;
+}
+.hero-buttons a {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #353637;
+}
+.hero-buttons a i {
+  width: 40px;
+  color: #597193;
+  font-size: 2rem;
+}
+.hero-images {
+  position: relative;
+  margin-right: 95px;
+}
+.hero-images .main-img img {
+  position: relative;
+  z-index: 1010;
+  bottom: -5px;
+}
+.hero-images .main-img .circle-white {
+  width: 540px;
+  height: 540px;
+  background: #f6fcfa;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 65px;
+  right: -95px;
+  z-index: 1001;
+  box-shadow: -5px 0px 39px 0px #76767614;
+}
+.hero-images .market-img img:first-child {
+  position: absolute;
+  bottom: 70px;
+  right: 337px;
+  z-index: 1002;
+  box-shadow: -2px 12px 25px 0px #6161611a;
+}
+.hero-images .market-img img:last-child {
+  position: absolute;
+  top: 45px;
+  left: 356px;
+  z-index: 1002;
+  box-shadow: 0px 8px 28px 0px #5454541a;
+}
+.hero .circle-icons .circle-1 {
+  width: 10px;
+  height: 10px;
+  background: #c9d6e9;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100px;
+  right: 650px;
+}
+.hero .circle-icons .circle-2 {
+  width: 21px;
+  height: 21px;
+  background: #c9d6e9;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 490px;
+  left: -150px;
+}
+.hero .circle-icons .circle-3 {
+  width: 41px;
+  height: 41px;
+  background: #c9d6e9;
+  border-radius: 50%;
+  position: absolute;
+  top: -42px;
+  right: -45px;
+}
+.hero .circle-icons .circle-4 {
+  width: 27px;
+  height: 27px;
+  background: #c9d6e9;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 80px;
+  left: 375px;
+}
