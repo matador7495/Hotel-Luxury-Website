@@ -612,3 +612,74 @@ section {
   display: block;
   margin: 70px auto;
 }
+/* Hotel Blog Section Styles */
+.blog-container {
+  display: flex;
+  column-gap: 30px;
+}
+.blog-header h5 {
+  font-family: "Average Sans", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.26em;
+  color: #7587a0;
+}
+.blog-header h2 {
+  font-weight: 400;
+  line-height: 55px;
+  color: #353637;
+  margin-bottom: 44px;
+}
+.blog-img img {
+  width: 100%;
+  max-width: 428px;
+  border-radius: 5px 5px 0 0;
+}
+.blog-icons {
+  display: flex;
+  gap: 70px;
+  margin-bottom: 8px;
+}
+.blog-icons img {
+  margin-right: 7px;
+  vertical-align: middle;
+}
+.blog-icons .travel,
+.blog-icons .comment {
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  color: #797979;
+}
+.blog-details {
+  border: 1px solid #596b86;
+  margin-top: -5px;
+  padding: 19px 25px 28px 26px;
+}
+.blog-details h3 {
+  font-weight: 400;
+  line-height: 34px;
+  color: #131313;
+}
+.blog-details p {
+  font-family: "Average Sans", sans-serif;
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #9b9b9b;
+  width: 253px;
+  margin: 10px 0 20px;
+}
+.read-more a {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #596b86;
+  margin-right: 9px;
+}
+.read-more img {
+  color: #596b86;
+}
