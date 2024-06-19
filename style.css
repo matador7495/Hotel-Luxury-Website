@@ -753,3 +753,75 @@ section {
   bottom: 0;
   left: 0;
 }
+/* About Us Style */
+footer {
+  border: 1px solid #7587a0;
+  margin: 86px auto;
+  width: 1198px;
+  height: 278px;
+  padding: 42px;
+}
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+}
+.about-text .logo {
+  font-size: 1.625rem;
+  font-weight: 600;
+  color: #597193;
+  display: block;
+  margin-bottom: 18px;
+}
+.about-text p {
+  font-family: "Average Sans", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #a9a9a9;
+}
+.contact-info h3,
+.follow-us h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 26px;
+  padding-left: 5px;
+  color: #131313;
+  margin: 25px 0 15px;
+}
+.contact-item {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 14px;
+}
+.contact-info i {
+  color: #7587a0;
+  display: block;
+}
+.contact-info span {
+  font-family: "Average Sans", sans-serif;
+  margin-left: 15px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #a9a9a9;
+}
+.social-icons i {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 8px;
+  color: #00b2ff;
+  margin-right: 15px;
+}
+.social-icons i:nth-child(2) {
+  color: #d23939;
+}
+.follow-us p {
+  font-family: "Average Sans", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  margin-top: 5px;
+  color: #a9a9a9;
+}
