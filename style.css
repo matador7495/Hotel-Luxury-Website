@@ -683,3 +683,73 @@ section {
 .read-more img {
   color: #596b86;
 }
+/* Newsletter Subscription Style */
+.newsletter-container {
+  background: #b1bed0;
+  height: 383px;
+  border-radius: 10px;
+  padding-top: 73px;
+  position: relative;
+  margin-top: 100px;
+}
+.newsletter-text {
+  width: 523px;
+  height: 237px;
+  margin: 0 auto;
+  text-align: center;
+}
+.newsletter-text h4 {
+  font-family: "Average Sans", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.155em;
+  color: #ffffff;
+}
+.newsletter-text p {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: center;
+  color: #334052;
+  margin: 25px 0 44px;
+}
+.newsletter-details {
+  position: relative;
+  max-width: 446px;
+  margin: 0 auto;
+}
+.newsletter-details input {
+  width: 100%;
+  font-size: 0.875rem;
+  font-weight: 400;
+  border-radius: 6px;
+  text-align: left;
+  color: #a1a1a1;
+  padding: 13px 19px;
+  box-shadow: 0px 2px 12px 0px #34343426;
+}
+.newsletter-details button {
+  width: 107px;
+  height: 45px;
+  border-radius: 6px;
+  background-color: #889cb9;
+  position: absolute;
+  right: 0px;
+  box-shadow: none;
+}
+.newsletter .vector-top img {
+  display: block;
+  width: 80px;
+  height: 85px;
+  position: absolute;
+  top: -3px;
+  right: -1px;
+}
+.newsletter .vector-bottom img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
