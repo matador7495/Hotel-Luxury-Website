@@ -211,3 +211,108 @@ header {
   bottom: 80px;
   left: 375px;
 }
+section {
+  max-width: 1110px;
+  margin: auto;
+}
+/* Availability Section Styles*/
+.availability-check {
+  margin: 121px auto 118px;
+}
+.availability-title {
+  width: 452px;
+  text-align: center;
+  margin: 0 auto;
+}
+.availability-title h2 {
+  font-weight: 400;
+  line-height: 55px;
+  color: #353637;
+  margin-bottom: 16px;
+}
+.availability-title h4 {
+  font-family: "Average Sans", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #959595;
+}
+.availability-form {
+  margin-top: 46px;
+  display: flex;
+  position: relative;
+}
+.availability-form .form-image {
+  min-width: 50%;
+}
+.availability-form .form-inputs > img {
+  width: 74px;
+  height: 74px;
+  position: relative;
+  bottom: 0px;
+  left: 352px;
+}
+.availability-form .form-image img {
+  background: #b1bed0;
+  width: 100%;
+  max-width: 637px;
+  height: 523px;
+  border-radius: 8px 0px 0px 8px;
+}
+.availability-form .form-inputs {
+  width: 100%;
+  max-width: 475px;
+  background: #f6fcfa;
+  padding: 70px 5%;
+  border-radius: 0px 8px 8px 0px;
+}
+.availability-form .vectors img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.availability-form .form-inputs label {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  color: #222426;
+}
+.availability-form .form-inputs input {
+  width: 100%;
+  max-width: 339px;
+  height: 50px;
+  border-radius: 2px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.03em;
+  color: #636461;
+  border: 1px solid #ababab;
+  padding: 12px 14px;
+  background: transparent;
+}
+.btn-check-availability {
+  width: 93%;
+  margin-top: 25px;
+  max-width: 339px;
+  height: 50px;
+  border-radius: 2px;
+  border: 1.5px solid #596b86;
+  background-color: transparent;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #222426;
+  box-shadow: none;
+}
+.availability-form .input-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.availability-form .input-icon img {
+  position: relative;
+  right: 40px;
+  pointer-events: none;
+}
