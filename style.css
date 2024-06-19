@@ -825,3 +825,30 @@ footer {
   margin-top: 5px;
   color: #a9a9a9;
 }
+/* Copyright Style */
+.copyright {
+  background: #b1bed0;
+}
+.copyright-container {
+  max-width: 1110px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 26px;
+  color: #0000006b;
+}
+.copyright-link a {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #0000006b;
+  padding-left: 8px;
+}
