@@ -381,3 +381,50 @@ section {
   font-weight: 400;
   line-height: 55px;
 }
+/* Services Section Styles */
+.services {
+  text-align: center;
+  margin: 123px auto 118px;
+}
+.services-header h5 {
+  font-family: "Average Sans", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.26em;
+  color: #597193;
+  margin-bottom: 18px;
+}
+.services-header h2 {
+  font-weight: 400;
+  line-height: 55px;
+  color: #353637;
+}
+.services-container {
+  margin-top: 43px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.service-box {
+  border-radius: 2px;
+  padding: 20px 30px;
+  border: 1px solid #596b86;
+}
+.service-box .service-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.service-box .service-title h3 {
+  font-weight: 400;
+  color: #131313;
+}
+.service-box p {
+  text-align: left;
+  margin-top: 16px;
+  font-family: "Average Sans", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #9b9b9b;
+}
