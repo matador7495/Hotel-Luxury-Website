@@ -961,16 +961,25 @@ footer {
     margin-left: 0.75rem;
   }
   h3 {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
   }
   .newsletter-container {
     padding: 3%;
     height: auto;
   }
+  .discover-buttons {
+    gap: 10px;
+  }
+  .review-box {
+    padding: 18px;
+  }
+  .blog-icons {
+    gap: 16px;
+  }
 }
 @media (max-width: 670px) {
   .nav-list li {
-    font-size: 1rem;
+    font-size: 0.875rem;
     margin-left: 0.5rem;
   }
   .availability-form .form-image img {
@@ -980,7 +989,7 @@ footer {
     padding: 35px 3%;
   }
   h3 {
-    font-size: 1rem;
+    font-size: 0.813rem;
   }
   .room-card img {
     height: 200px;
@@ -1013,13 +1022,21 @@ footer {
   .blog-details p,
   .blog-icons .travel,
   .blog-icons .comment {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
+  }
+  .blog-icons {
+    gap: 8px;
   }
   .newsletter-text p {
     font-size: 1.3rem;
   }
   .newsletter-text p {
     margin: 25px 0 7px;
+  }
+  .about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
 }
 @media (max-width: 480px) {
